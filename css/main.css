@@ -1,0 +1,86 @@
+body {
+    padding-top: 4.5rem;
+}
+.row {
+    padding-bottom: 1em;
+}
+.navbar {
+    min-height: 4.5rem;
+}
+.navbar, .subscribe-btn {
+    background-color: #773cbd;
+}
+div.preview {
+    background-color: #fbea06;
+    padding: 10px;
+}
+.main-foto {
+    max-height: 400px;
+}
+.foto {
+    max-height: 300px;
+}
+.subscribe-btn {
+    height: 54px;
+    color: #ffffff;
+    border-radius: 27px;
+    background: linear-gradient(to top, #471c79, #763cbd);
+    padding: 0 1em;
+    box-shadow:
+            0 1px rgba(255,255,255,.2) inset,
+            0 3px 5px rgba(0,1,6,.5),
+            0 0 1px 1px rgba(0,1,6,.2) !important;
+}
+.subscribe-btn:active{
+    background: linear-gradient(to top, #763cbd, #471c79) !important;
+}
+.subscribe-btn>img {
+    max-height: 20px;
+}
+.price {
+    margin-top: 1em;
+}
+
+.modal-content {
+    border-radius: 20px;
+}
+.modal-body {
+    padding-top: 0;
+}
+input[type="text"] {
+    border-radius: 20px;
+}
+
+input[type="checkbox"] + label>span{
+    -webkit-appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 1px solid rgba(0, 0, 0, .3);
+    outline: none;
+    box-sizing: border-box;
+    display: inline-block;
+    padding-top: 2px;
+}
+
+input[type="checkbox"]:checked + label>span:before {
+    content: "";
+    display: block;
+    width: 22px;
+    height: 16px;
+    border: 0 solid #773cbd;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotateZ(45deg);
+    margin: -10px -5px;
+    pointer-events:none;
+}
+input[type="checkbox"] + label {
+    padding-top: 6px;
+}
+
+label.form-check-label {
+    cursor: pointer;
+}
+
+th.h4 {
+    padding-left: 0;
+}
