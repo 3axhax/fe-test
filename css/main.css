@@ -84,3 +84,9 @@ label.form-check-label {
 th.h4 {
     padding-left: 0;
 }
+
+.carousel.slide {
+    border: 6px solid #fff;
+    border-radius: .25rem;
+    margin-bottom: 1em;
+}
